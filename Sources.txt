@@ -1,0 +1,62 @@
+--Message Protocol--
+
+Every part of this code written so far should work. Please let me know in a comment on Blackboard if it doesn't so I can actually fix it.
+
+Balance:
+Client sends menu and asks for a number
+User sends 1
+Client sends 1 to the server
+Server returns the account balance
+
+Withdrawal:
+Client sends menu and asks for a number
+User sends 2
+Client sends 2 to the server
+Server asks for amount
+Client asks user for amount 
+User sends amount
+client sends amount to server
+Server checks amount
+	Sends done if good
+	Sends Invalid amount if bad
+
+Deposit:
+Withdrawal:
+Client sends menu and asks for a number
+User sends 3
+Client sends 3 to the server
+Server asks for amount
+Client asks user for amount 
+User sends amount
+client sends amount to server
+Server checks amount
+	Sends done if good
+	Sends Invalid amount if bad
+
+Leave:
+Client sends menu and asks for a number
+User sends 4
+client sends 4 to the server
+Server sends close
+Client says goodbye to user and then closes
+
+
+--Sources--
+
+I used my string manipulation assignment as a base for this and then edited things from there.
+
+Was unfamiliar with how to make classes in python but knew this was a good situation to so I used the bank_account.py file from devops as reference. I did not copy the functions or anything directly since my bank is too cool for plagiarism. Just needed reference on the setup.
+
+Blanked on how to read in files with python. Used W3 for reference (https://www.w3schools.com/python/python_file_open.asp) when reading in the BankBalance.txt file.
+
+Emailed professor Bowe and found out I was putting print instead of input on line 23. He was very helpful and awesome.
+
+My very handsome boyfriend Nicholas Cole Black helped me with using \n for newline. I thought because it didn't highlight a different color you couldn't do it in python. This is to help with readability in in the terminal.
+
+Forgot how to write in files so I googled it and used W3 again cause it's a pretty baller website (https://www.w3schools.com/python/python_file_write.asp). Helped me write my rewrite stuff for the file in the class.
+
+My program later broke in how it returned the balance (Turns out it was converting cents into a float for some reason). Xander and I worked together on it and realized we could convert it to an int before then converting it to a string for creating balance. It's not great, but if it works, it works. Professor Bowe was also briefly consulted.
+
+Professor Bowe helped me realize I was missing the bottom main thing in my testing.
+
+Wanted a do while loop for checking input values but I didn't know the syntax in python. Found out from here (https://www.geeksforgeeks.org/python-do-while/) that they don't exist in python which sucks big time, but that while True: with an if statement is a good replacement.
