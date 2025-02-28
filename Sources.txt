@@ -51,7 +51,7 @@ Blanked on how to read in files with python. Used W3 for reference (https://www.
 
 Emailed professor Bowe and found out I was putting print instead of input on line 23. He was very helpful and awesome.
 
-My very handsome boyfriend Nicholas Cole Black helped me with using \n for newline. I thought because it didn't highlight a different color you couldn't do it in python. This is to help with readability in in the terminal.
+My very handsome boyfriend Nicholas Cole Black helped me with using \n for newline. I thought because it didn't highlight a different color you couldn't do it in python. This is to help with readability in the terminal.
 
 Forgot how to write in files so I googled it and used W3 again cause it's a pretty baller website (https://www.w3schools.com/python/python_file_write.asp). Helped me write my rewrite stuff for the file in the class.
 
@@ -60,3 +60,13 @@ My program later broke in how it returned the balance (Turns out it was converti
 Professor Bowe helped me realize I was missing the bottom main thing in my testing.
 
 Wanted a do while loop for checking input values but I didn't know the syntax in python. Found out from here (https://www.geeksforgeeks.org/python-do-while/) that they don't exist in python which sucks big time, but that while True: with an if statement is a good replacement.
+
+Forgot about split when reading in file stuff so looked it up. Used this reddit post (https://www.reddit.com/r/learnpython/comments/flm2cm/how_would_i_take_a_list_of_lists_from_a_text_file/) to bring back database memories.
+
+Login was inspired by the code showed to us in class 2/24/25. If you did post the code you showed us, I didn't use it and just went of memory to since I had an hour before lab.
+
+Later had issues with my while true and Professor Bowe helped me with that. Turns out I was breaking in the wrong spot and had to add an if statement.
+
+Needed to get current time and was annoyed by all the words on the resource you provided so I just looked up "How to get current time in python" and used this website (https://stackoverflow.com/questions/415511/how-do-i-get-the-current-time-in-python) to get the time for transactions
+
+Didn't know how to append to a file in python so I looked up "How to append to file python" and used this website for tracking my transactions in transactions.txt (https://www.geeksforgeeks.org/python-append-to-a-file/#)
