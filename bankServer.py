@@ -1,5 +1,4 @@
 import socket
-#import sqlite3
 from bankClass import bankAccount
 
 
